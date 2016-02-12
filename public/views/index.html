@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello Node!</title>
+    <title>Spirit Animal Assigner</title>
     <script type="text/javascript" src="/vendors/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/clientapp.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./views/stylesheet.css" />
+
 </head>
 <body>
-    <h1>Welcome to Node!</h1>
+    <h1>What is your spirit animal?</h1>
     <div id="nameForm">
         <form id="post-form-name">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" />
 
             <button id="post-data-name">Post!</button>
-            <button id="get-data-name">Get Data</button>
+            <button id="get-data-name">Get Random Name</button>
         </form>
     </div>
     <div id="animalForm">
@@ -23,8 +26,11 @@
             <input type="text" id="animal" name="animal" />
 
             <button id="post-data-animal">Post!</button>
-            <button id="get-data-animal">Get Data</button>
+            <button id="get-data-animal">Get Random Animal</button>
         </form>
+    </div>
+    <div>
+        <button id="spirit-animal-assigner">Assign Spirit Animal</button>
     </div>
     <div id="names-and-animals">
         <h2>Names and Animals</h2>
