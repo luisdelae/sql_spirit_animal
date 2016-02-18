@@ -1,3 +1,24 @@
 .animal-assignment {
     margin: 10px;
 }
+
+#name-container, #names-and-animals, #animal-container {
+    margin: 15px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#animal-container {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/*#name-form{*/
+    /*display: inline-block;*/
+    /*!*float: left;*!*/
+/*}*/
+
+/*#animal-assigner {*/
+    /*display: inline;*/
+    /*float: left;*/
+/*}*/

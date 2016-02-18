@@ -11,27 +11,46 @@
 </head>
 <body>
     <h1>What is your spirit animal?</h1>
-    <div id="nameForm">
-        <form id="post-form-name">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
 
-            <button id="post-data-name">Post!</button>
-            <button id="get-data-name">Get Random Name</button>
-        </form>
-    </div>
-    <div id="animalForm">
-        <form id="post-form-animal">
-            <label for="animal">Spirit Animal</label>
-            <input type="text" id="animal" name="animal" />
+    <div id="name-container">
+        <div id="nameForm">
+            <form id="post-form-name">
+                <label for="first_name">First Name: </label>
+                <input type="text" id="first_name" name="first_name" />
 
-            <button id="post-data-animal">Post!</button>
-            <button id="get-data-animal">Get Random Animal</button>
-        </form>
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name" name="last_name" />
+
+                <button id="post-data-name">Post!</button>
+                <!--<button id="get-data-name">Get Random Name</button>-->
+            </form>
+        </div>
+
+        <div id="animal-assigner">
+            <h2>Assign an animal</h2>
+        </div>
     </div>
-    <div>
-        <button id="spirit-animal-assigner">Assign Spirit Animal</button>
+
+    <div id="animal-container">
+        <h2>Add an animal</h2>
+        <div id="animalForm">
+            <form id="post-form-animal">
+                <label for="animal_name">Animal Name: </label>
+                <input type="text" id="animal_name" name="animal_name" />
+
+                <label for="animal_color">Animal Color: </label>
+                <input type="text" id="animal_color" name="animal_color" />
+
+                <button id="post-data-animal">Post!</button>
+                <!--<button id="get-data-animal">Get Random Animal</button>-->
+            </form>
+        </div>
+
+        <div id="animal-id">
+            <h2>Animal ID</h2>
+        </div>
     </div>
+
     <div id="names-and-animals">
         <h2>Names and Animals</h2>
     </div>

@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', function(req, res) {
-    console.log(req.body.name);
+    console.log("this is the name" + req.body.name);
     nameArray.push(req.body.name);
     res.send(nameArray);
 });
